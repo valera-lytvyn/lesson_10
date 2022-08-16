@@ -1,0 +1,175 @@
+/*Обнуление*/
+* {
+  padding: 0 !important;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+
+
+/* _____________________ */
+
+.wrap_we_are {
+  width: 100%;
+  height: 100%;
+  font-family: "Lato";
+}
+
+.photo_wrap {
+  width: 270px;
+  margin: auto;
+}
+
+
+.we_are_title {
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #3c3c3c;
+  font-family: "Lato";
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 110px;
+}
+
+.we_are_text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+  font-weight: 300;
+  margin: 60px 0px;
+}
+
+.name_photo {
+  font-size: 18px;
+  line-height: 18px;
+  color: #282528;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.profession {
+  font-size: 14px;
+  color: #282528;
+  font-weight: 300;
+}
+
+.photo {
+  height: 270px;
+  width: 270px;
+  position: relative;
+}
+
+.icon_social {
+  background-color: #2ca7c5;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  opacity: 0;
+
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.photo:hover .icon_social {
+  z-index: 2;
+  opacity: 1;
+  transition: all 0.6s ease-in;
+}
