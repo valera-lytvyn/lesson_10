@@ -95,6 +95,7 @@ h6 {
 .body {
   background: #b07bf7;
   color: #ffffff;
+  font-family: "Raleway";
 }
 
 .wrap_blog {
@@ -103,15 +104,11 @@ h6 {
   justify-content: center;
 }
 
-.container {
-  flex: 1;
-  height: 100%;
-}
+
 
 .blog_title {
   font-size: 90px;
   font-weight: 700;
-  font-family: "Raleway";
   margin-top: 75px;
 }
 
@@ -119,21 +116,18 @@ h6 {
   font-size: 17px;
   line-height: 25px;
   font-weight: 300;
-  font-family: "Raleway";
   margin: 30px 0px 45px;
 }
 
 .data {
   font-size: 32px;
   font-weight: 700;
-  font-family: "Raleway";
   margin-top: -5px;
 }
 
 .mounth {
   font-size: 21px;
   font-weight: 700;
-  font-family: "Raleway";
   text-transform: uppercase;
   margin-top: -15px;
 }
@@ -142,7 +136,6 @@ h6 {
   font-size: 20px;
   line-height: 25px;
   font-weight: 700;
-  font-family: "Raleway";
   position: absolute;
   top: 210px;
   margin: 0px 20px;
@@ -152,7 +145,6 @@ h6 {
 .author {
   font-size: 13px;
   font-weight: 300;
-  font-family: "Raleway";
   position: absolute;
   bottom: 25px;
   margin: 0px 20px;
@@ -162,7 +154,6 @@ h6 {
 .button_text {
   font-size: 20px;
   font-weight: 300;
-  font-family: "Raleway";
   text-transform: uppercase;
 }
 
@@ -219,9 +210,9 @@ h6 {
 }
 
 .data_wrap:hover {
-  transform: scale(1.5);
   border-radius: 25%;
   transition: all 0.5s ease-in;
+  transform: scale(1.5);
 }
 
 

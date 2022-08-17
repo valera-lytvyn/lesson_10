@@ -171,5 +171,24 @@ h6 {
 .photo:hover .icon_social {
   z-index: 2;
   opacity: 1;
-  transition: all 0.6s ease-in;
+  transition: all 1.0s ease-in;
+ transform: translate(0px, 220%);
+border-radius: 5%;
+background: #2ca6c580;
+height: 80px;
+}
+
+
+
+.fa-brands{
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+.logo:hover .fa-brands{
+  color:#fff;
+  zoom: 150%;
+}
+.logo:hover{
+  background-color: rgba(255, 255, 255, 0);
 }
